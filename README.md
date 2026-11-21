@@ -1,7 +1,17 @@
 # SyncOps AI — Full-Stack Meeting-to-Execution Governance Platform
 
+> **Live Production Website:** [**https://syncops-ai.netlify.app**](https://syncops-ai.netlify.app)  
 > **Hackathon Track:** Problem 03 — Meeting-to-Execution Agent  
-> **Architecture:** Full-Stack Web Application (Node.js REST API + SQLite DB + React 19 / TypeScript / Vite)
+> **Architecture:** Full-Stack Web Application (Serverless Node.js API + Supabase PostgreSQL + React 19 / TypeScript / Vite)
+
+---
+
+## 🌐 Live Production Deployment
+
+SyncOps AI is deployed live with full frontend, backend, and database persistence:
+- **Live URL:** [**https://syncops-ai.netlify.app**](https://syncops-ai.netlify.app)
+- **Backend API Health Check:** [**https://syncops-ai.netlify.app/api/health**](https://syncops-ai.netlify.app/api/health)
+- **Database:** Supabase Managed PostgreSQL (live persistence across meetings, decisions, Kanban execution items, and cross-meeting conflicts)
 
 ---
 
