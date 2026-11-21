@@ -1,0 +1,151 @@
+1
+00:00:00,000 --> 00:00:04,457
+Hello, respected judges. Welcome to SyncOps AI, a live meeting-to-execution governance
+
+2
+00:00:04,457 --> 00:00:08,913
+workspace engineered to solve a critical problem: decisions made in meetings
+
+3
+00:00:08,913 --> 00:00:13,370
+get lost, forgotten, or contradicted.
+
+4
+00:00:13,370 --> 00:00:18,002
+Engineering teams spend dozens of hours in technical standups and architecture
+
+5
+00:00:18,002 --> 00:00:22,634
+reviews. Yet, key decisions vanish into messy notes, commitments are forgotten,
+
+6
+00:00:22,634 --> 00:00:27,266
+and subsequent meetings frequently overturn past consensus without anyone realizing it.
+
+7
+00:00:27,266 --> 00:00:31,898
+Existing tools only dump flat transcript summaries into Slack, with zero
+
+8
+00:00:31,898 --> 00:00:36,530
+persistent memory and zero conflict detection.
+
+9
+00:00:36,530 --> 00:00:40,688
+SyncOps AI transforms ephemeral meeting dialogues into an immutable company decision
+
+10
+00:00:40,688 --> 00:00:44,845
+ledger. We provide automated transcript ingestion, a persistent decision memory bank
+
+11
+00:00:44,845 --> 00:00:49,002
+powered by SQLite, real-time contradiction detection, and an interactive Kanban execution
+
+12
+00:00:49,002 --> 00:00:53,160
+tracker.
+
+13
+00:00:53,160 --> 00:00:57,669
+Let us explore the live product. On our Meetings workspace, we
+
+14
+00:00:57,669 --> 00:01:02,177
+click Baseline Meeting and click Process and Analyze. Our backend immediately
+
+15
+00:01:02,177 --> 00:01:06,686
+segments turns, attributes speakers, and extracts decisions and action items directly
+
+16
+00:01:06,686 --> 00:01:11,194
+into SQLite. Next, we simulate Meeting 2, where Bob suggests switching
+
+17
+00:01:11,194 --> 00:01:15,703
+to MongoDB and Carol proposes delaying launch. When we analyze this
+
+18
+00:01:15,703 --> 00:01:20,211
+meeting, SyncOps immediately fires a Critical Alignment Alert! In our Conflict
+
+19
+00:01:20,211 --> 00:01:24,720
+Center, we see a live side-by-side quote diff comparing Alice's locked
+
+20
+00:01:24,720 --> 00:01:29,229
+PostgreSQL decision against Bob's rogue proposal. We resolve this live by
+
+21
+00:01:29,229 --> 00:01:33,737
+enforcing the prior decision. In our Execution Tracker, every extracted action
+
+22
+00:01:33,737 --> 00:01:38,246
+item becomes an active Kanban card. We click Add Task to
+
+23
+00:01:38,246 --> 00:01:42,754
+create a new action item, and move cards between To Do,
+
+24
+00:01:42,754 --> 00:01:47,263
+In Progress, and Done. In Deadlines and Nudges, the system tracks
+
+25
+00:01:47,263 --> 00:01:51,771
+time deltas and generates one-click Slack alerts, while our Team Digest
+
+26
+00:01:51,771 --> 00:01:56,280
+provides personalized weekly rollups.
+
+27
+00:01:56,280 --> 00:02:00,952
+Architecturally, SyncOps is a full-stack application. The frontend uses React 19,
+
+28
+00:02:00,952 --> 00:02:05,623
+TypeScript, and Tailwind CSS. The backend runs a Node.js REST API
+
+29
+00:02:05,623 --> 00:02:10,295
+backed by native SQLite for permanent data persistence. Our extraction engine
+
+30
+00:02:10,295 --> 00:02:14,967
+enforces strict JSON schemas, binding every decision to verbatim transcript citations,
+
+31
+00:02:14,967 --> 00:02:19,638
+while our contradiction engine cross-checks proposals across technical, timeline, and budget
+
+32
+00:02:19,638 --> 00:02:24,310
+dimensions.
+
+33
+00:02:24,310 --> 00:02:29,223
+SyncOps eliminates alignment drift, saving engineering teams over four hours per
+
+34
+00:02:29,223 --> 00:02:34,137
+developer every week. With full SQLite persistence and real CSV exports,
+
+35
+00:02:34,137 --> 00:02:39,050
+it guarantees that no organizational decision slips through the cracks.
+
+36
+00:02:39,050 --> 00:02:43,090
+We are not demonstrating a prototype or static presentation. We have
+
+37
+00:02:43,090 --> 00:02:47,130
+built an active, production-grade workspace that turns lost conversations into verified
+
+38
+00:02:47,130 --> 00:02:51,170
+execution. Thank you.

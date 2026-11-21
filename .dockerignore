@@ -1,0 +1,12 @@
+node_modules
+.git
+.env
+dist
+HACKATHON_DEMO_FINAL/raw_live_video
+HACKATHON_DEMO_FINAL/raw_screens
+HACKATHON_DEMO_FINAL/temp_video_parts
+HACKATHON_DEMO_FINAL/graphic_slides
+HACKATHON_DEMO_FINAL/*.mp4
+HACKATHON_DEMO_FINAL/live_audio
+HACKATHON_DEMO_FINAL/audio
+.system_generated
